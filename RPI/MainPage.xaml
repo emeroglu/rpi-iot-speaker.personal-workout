@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="RPI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="/Assets/FON.png" Stretch="Fill"></Image>
+        <Canvas Width="1000" Height="250">
+            <Image x:Name="btn18" Source="/Assets/empty.png" Width="200" Height="200" Canvas.Left="0" Tapped="Image_Tapped"></Image>
+            <Image x:Name="btn182" Source="/Assets/filled.png" Width="200" Height="200" Canvas.Left="0" Tapped="Image_Tapped" Visibility="Collapsed"></Image>
+            <TextBlock Text="PIN 18" Opacity="0.5" Foreground="White" FontSize="50" Width="200" TextAlignment="Center"  Canvas.Left="0" Canvas.Top="150" />
+            <Image x:Name="btn23" Source="/Assets/empty.png" Width="200" Height="200" Canvas.Left="266" Tapped="Image_Tapped"></Image>
+            <Image x:Name="btn232" Source="/Assets/filled.png" Width="200" Height="200" Canvas.Left="266" Tapped="Image_Tapped" Visibility="Collapsed"></Image>
+            <TextBlock Text="PIN 23" Opacity="0.5" Foreground="White" FontSize="50" Width="200" TextAlignment="Center"  Canvas.Left="266" Canvas.Top="150" />
+            <Image x:Name="btn24" Source="/Assets/empty.png" Width="200" Height="200" Canvas.Left="522" Tapped="Image_Tapped"></Image>
+            <Image x:Name="btn242" Source="/Assets/filled.png" Width="200" Height="200" Canvas.Left="522" Tapped="Image_Tapped" Visibility="Collapsed"></Image>
+            <TextBlock Text="PIN 24" Opacity="0.5" Foreground="White" FontSize="50" Width="200" TextAlignment="Center"  Canvas.Left="522"  Canvas.Top="150"/>
+            <Image x:Name="btn25" Source="/Assets/empty.png" Width="200" Height="200" Canvas.Left="788" Tapped="Image_Tapped"></Image>
+            <Image x:Name="btn252" Source="/Assets/filled.png" Width="200" Height="200" Canvas.Left="788" Tapped="Image_Tapped" Visibility="Collapsed"></Image>
+            <TextBlock Text="PIN 25" Opacity="0.5" Foreground="White" FontSize="50" Width="200" TextAlignment="Center"  Canvas.Left="788" Canvas.Top="150"/>
+        </Canvas>
+        <MediaElement x:Name="beatit" Source="Assets/BeatIt.mp3" AutoPlay="False"></MediaElement>
+        <MediaElement x:Name="billie" Source="Assets/BillieJean.mp3" AutoPlay="False"></MediaElement>
+        <MediaElement x:Name="wanna" Source="Assets/WannaBe.mp3" AutoPlay="False"></MediaElement>
+        <MediaElement x:Name="baby" Source="Assets/BabyBe.mp3" AutoPlay="False"></MediaElement>
+        <MediaElement x:Name="thriller" Source="Assets/Thriller.mp3" AutoPlay="False"></MediaElement>
+    </Grid>
+</Page>

@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="RPI.Test"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="/Assets/FON.png" Stretch="Fill"></Image>
+        <Image Source="/Assets/LOGO_BEYAZ_PNG.png" Width="400" Height="100" Margin="77,927,1443,53"></Image>
+        <Image Source="/Assets/empty.png" Width="400" Height="400" Margin="180,340,1340,340"></Image>
+        <TextBlock Text="PIN 18" Opacity="0.5" Foreground="White" FontSize="50" Width="400" TextAlignment="Center" Margin="180,640,1340,378"/>
+        <Image Source="/Assets/empty.png" Width="400" Height="400" Margin="560,340,960,340"></Image>
+        <TextBlock Text="PIN 23" Opacity="0.5" Foreground="White" FontSize="50" Width="400" TextAlignment="Center" Margin="560,640,960,378"/>
+        <Image Source="/Assets/empty.png" Width="400" Height="400" Margin="960,340,560,340"></Image>
+        <TextBlock Text="PIN 24" Opacity="0.5" Foreground="White" FontSize="50" Width="400" TextAlignment="Center" Margin="960,640,560,378"/>
+        <Image Source="/Assets/empty.png" Width="400" Height="400" Margin="1340,340,180,340"></Image>
+        <TextBlock Text="PIN 25" Opacity="0.5" Foreground="White" FontSize="50" Width="400" TextAlignment="Center" Margin="1340,640,180,378"/>
+    </Grid>
+</Page>
